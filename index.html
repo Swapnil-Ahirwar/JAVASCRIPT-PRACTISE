@@ -1,17 +1,18 @@
-<!DOCTYPE html>
+<!-- BASIC PROJECT WEBPAGE -->
+<!-- <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Basics</title>
-    <!-- <link
+    <link
       href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap"
       rel="stylesheet"
-    /> -->
+    />
     <link rel="stylesheet" href="practise/styles/app.css" />
-    <script src="practise/scripts//vendor.js" defer></script>
-    <script src="practise/scripts/app.js" defer></script>
+    <script src="practise/basic-project/vendor.js" defer></script>
+    <script src="practise/basic-project/app.js" defer></script>
   </head>
   <body>
     <header>
@@ -31,7 +32,35 @@
       <h2 id="current-calculation">0</h2>
       <h2>Result: <span id="current-result">0</span></h2>
     </section>
-    <!-- <script src="practise/scripts/assignment_1.js"></script> -->
-     <!-- <script src="practise/scripts/assignments/function.js"></script> -->
+    <script src="practise/scripts/assignment_1.js"></script>
+     <script src="practise/scripts/assignments/function.js"></script>
+  </body>
+</html> -->
+
+<!-- MONSTER KILL PROJECT WEBPAGE -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Monster Killer</title>
+    <link rel="stylesheet" href="practise/monster-killer-project/styles/app.css" />
+    <script src="practise/monster-killer-project/scripts/vendor.js" defer></script>
+    <script src="practise/monster-killer-project/scripts/app.js" defer></script>
+  </head>
+  <body>
+    <section id="health-levels">
+      <h2>MONSTER HEALTH</h2>
+      <progress id="monster-health" max="100" value="100">100%</progress>
+      <h2>PLAYER HEALTH<span id="bonus-life">1</span></h2>
+      <progress id="player-health" max="100" value="100">100%</progress>
+    </section>
+    <section id="controls">
+      <button id="attack-btn">ATTACK</button>
+      <button id="strong-attack-btn">STRONG ATTACK</button>
+      <button id="heal-btn">HEAL</button>
+      <button id="log-btn">SHOW LOG</button>
+    </section>
   </body>
 </html>
